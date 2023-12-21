@@ -93,6 +93,7 @@ a, .hero-left p{
     height: 200px;
 }
 
+/*sec-3 styling */
 .sec-3{
     display: flex;
     justify-content: center;
@@ -117,6 +118,7 @@ a, .hero-left p{
     font-size: 18px;
 }
 
+/*sec-4 styling */
 .sec-4{
     flex: 1;
     padding: 40px;
@@ -155,6 +157,8 @@ a, .hero-left p{
     border:1px solid #E5E7EB;
     width: fit-content;
 }
+
+/*footer styling */
 footer{
     background-color: #1F2937;
     color: white;
