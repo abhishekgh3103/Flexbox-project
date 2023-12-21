@@ -1,0 +1,162 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    font-family: sans-serif;
+}
+/* Sec-1 styling*/
+.sec-1{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    padding: 40px;
+    padding-top: 5px;
+    color: white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+}
+a {
+    text-decoration: none;
+}
+
+a, .hero-left p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.hero-left{
+    flex: 1;
+}
+.hero-right{
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.hero-right img{
+    width: auto;
+    height: 250px;
+    object-fit:fill;
+    border-radius: 4px;
+}
+
+.hero-left h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.sign-up{
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+/*sec-2 styling */
+.sec-2{
+    flex:1;
+    text-align: center;
+}
+.random-items{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+
+.items{
+    width: 200px;
+}
+.items img{
+    width: 200px;
+    height: 200px;
+}
+
+.sec-3{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    text-align:justify;
+    background-color: #E5E7EB;
+}
+
+.quote-container{
+    max-width: 500px;
+}
+
+.quote{
+    font-size: 36px;
+    font-style:italic;
+    font-weight: lighter;
+    color:#1F2937;
+}
+.author{
+    text-align: end;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.sec-4{
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    padding: 5px 40px;
+    background-color: #3882F6;
+    width: 80%;
+    gap: 20px;
+    color: #E5E7EB;
+    border-radius: 5px;
+    justify-content: space-between;
+}
+
+.card-left{
+    flex: 2;
+    font-size: 18px;
+    align-self: center;
+}
+
+.card-heading{
+    font-weight: 900;
+}
+.card-right{
+    flex: 1;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up.card{
+    border:1px solid #E5E7EB;
+    width: fit-content;
+}
+footer{
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+}
